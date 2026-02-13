@@ -1,0 +1,1025 @@
+{
+  "editProperty": {
+    "loading": "Cargando propiedad...",
+    "errorTitle": "Error al cargar",
+    "backToProperties": "Volver a Propiedades",
+    "breadcrumb": {
+      "properties": "Propiedades",
+      "edit": "Editar"
+    },
+    "title": "Editar Propiedad",
+    "subtitle": "Actualiza la información de tu propiedad",
+    "sections": {
+      "basicInfo": "Información Básica",
+      "location": "Ubicación",
+      "features": "Características",
+      "image": "Imagen",
+      "services": "Servicios Incluidos"
+    },
+    "fields": {
+      "title": "Título",
+      "description": "Descripción",
+      "status": "Estado",
+      "monthlyPrice": "Precio Mensual",
+      "address": "Dirección",
+      "city": "Ciudad",
+      "latitude": "Latitud",
+      "longitude": "Longitud",
+      "area": "Área (m²)",
+      "bedrooms": "Habitaciones",
+      "bathrooms": "Baños",
+      "parking": "Parqueaderos",
+      "imageUrl": "URL de la Imagen"
+    },
+    "placeholders": {
+      "title": "Ej: Apartamento moderno en el centro",
+      "description": "Describe las características principales de la propiedad...",
+      "address": "Ej: Calle 10 #15-20",
+      "city": "Ej: Popayán",
+      "imageUrl": "https://ejemplo.com/imagen.jpg"
+    },
+    "status": {
+      "available": "Disponible",
+      "rented": "Arrendada",
+      "maintenance": "En Mantenimiento"
+    },
+    "services": {
+      "water": "Agua",
+      "electricity": "Electricidad",
+      "gas": "Gas",
+      "internet": "Internet",
+      "cableTv": "TV por Cable",
+      "security": "Seguridad",
+      "parking": "Parqueadero",
+      "gym": "Gimnasio",
+      "pool": "Piscina",
+      "bbqArea": "Zona BBQ",
+      "laundry": "Lavandería",
+      "elevator": "Ascensor"
+    },
+    "buttons": {
+      "cancel": "Cancelar",
+      "save": "Guardar Cambios",
+      "saving": "Guardando..."
+    },
+    "messages": {
+      "updateSuccess": "¡Propiedad actualizada exitosamente!",
+      "updateError": "Error al actualizar la propiedad",
+      "noPermission": "No tienes permisos para editar esta propiedad",
+      "cancelConfirm": "¿Estás seguro de que deseas cancelar? Los cambios no guardados se perderán."
+    },
+    "errors": {
+      "loadError": "No se pudo cargar la propiedad",
+      "noPermission": "No tienes permisos para editar esta propiedad",
+      "mustLogin": "Debes iniciar sesión para editar propiedades"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Tu hogar ideal te espera",
+      "title": "Encuentra el",
+      "titleHighlight": "hogar perfecto",
+      "titleEnd": "para tu estilo de vida",
+      "description": "Te acompañamos en cada paso para que encuentres una casa que encaje con tu vida y tus planes. Descubre propiedades exclusivas.",
+      "stats": {
+        "properties": "Propiedades",
+        "clients": "Clientes Felices",
+        "experience": "Años de Experiencia"
+      },
+      "floatingCards": {
+        "verified": "Propiedades Verificadas",
+        "rated": "Mejor Valoradas"
+      }
+    },
+    "search": {
+      "title": "Encuentra tu próximo hogar",
+      "fields": {
+        "search": {
+          "label": "Buscar",
+          "placeholder": "Buscar por título, descripción o ubicación..."
+        },
+        "location": {
+          "label": "Ubicación",
+          "placeholder": "¿Dónde quieres vivir?"
+        },
+        "type": {
+          "label": "Tipo de Propiedad",
+          "all": "Todos los tipos",
+          "house": "Casa",
+          "apartment": "Apartamento",
+          "commercial": "Local Comercial",
+          "farm": "Finca"
+        },
+        "budget": {
+          "label": "Presupuesto Máximo",
+          "placeholder": "Ej: 2,000,000"
+        }
+      },
+      "button": "Buscar",
+      "filters": {
+        "active": "Filtros Activos:",
+        "clear": "Limpiar"
+      },
+      "suggestions": {
+        "loading": "Buscando ubicaciones..."
+      }
+    },
+    "properties": {
+      "badge": "Propiedades Destacadas",
+      "title": "Descubre Nuestras",
+      "titleHighlight": "Mejores Opciones",
+      "description": "Propiedades cuidadosamente seleccionadas para ti",
+      "loading": "Cargando propiedades increíbles...",
+      "error": "No pudimos cargar los datos en este momento",
+      "retry": "Intentar de nuevo",
+      "card": {
+        "status": {
+          "available": "Disponible",
+          "rented": "Arrendada",
+          "reserved": "Ocupado",
+          "sold": "Vendido",
+          "maintenance": "En mantenimiento"
+        },
+        "priceLabel": "Precio Mensual",
+        "perMonth": "/mes",
+        "features": {
+          "area": "Área",
+          "bedrooms": "Habitaciones",
+          "bathrooms": "Baños"
+        },
+        "viewDetails": "Ver Detalles",
+        "favorite": "Favorito",
+        "share": "Compartir"
+      },
+      "empty": {
+        "title": "No encontramos propiedades",
+        "description": "Intenta ajustar tus criterios de búsqueda",
+        "clearFilters": "Limpiar filtros"
+      },
+      "viewMore": {
+        "showing": "Mostrando",
+        "of": "de",
+        "properties": "propiedades",
+        "button": "Explorar Todas las Propiedades"
+      }
+    },
+    "cta": {
+      "title": "¿Listo para encontrar tu hogar ideal?",
+      "description": "Contáctanos y te ayudaremos a encontrar la propiedad perfecta para ti",
+      "viewProperties": "Ver Propiedades",
+      "contact": "Contactar"
+    },
+    "modal": {
+      "close": "Cerrar",
+      "sections": {
+        "location": {
+          "title": "Ubicación",
+          "notAvailable": "No disponible"
+        },
+        "features": {
+          "title": "Características",
+          "area": "Área:",
+          "bedrooms": "Habitaciones:",
+          "bathrooms": "Baños:"
+        },
+        "services": {
+          "title": "Servicios Incluidos",
+          "none": "No hay servicios incluidos"
+        },
+        "publication": {
+          "title": "Publicación",
+          "publishedAgo": "Publicado hace"
+        },
+        "description": {
+          "title": "Descripción",
+          "notAvailable": "Sin descripción disponible"
+        },
+        "map": {
+          "title": "Ubicación Exacta",
+          "viewFullMap": "Ver en Mapa Completo",
+          "latitude": "Latitud:",
+          "longitude": "Longitud:",
+          "notRegistered": "Esta propiedad aún no tiene ubicación registrada"
+        },
+        "actions": {
+          "requestVisit": "Solicitar Cita de Visita",
+          "unavailable": {
+            "title": "Propiedad No Disponible",
+            "description": "Actualmente esta propiedad no está disponible para visitas"
+          }
+        }
+      },
+      "gallery": "Galería"
+    }
+  },
+  "navbar": {
+    "links": {
+      "home": "Inicio",
+      "properties": "Propiedades",
+      "about": "Nosotros"
+    },
+    "auth": {
+      "login": "Iniciar Sesión",
+      "logout": "Cerrar Sesión",
+      "greeting": "Hola"
+    },
+    "dropdown": {
+      "myProfile": "Mi Perfil",
+      "notifications": "Notificaciones",
+      "contracts": "Contratos",
+      "payments": "Pagos",
+      "sections": {
+        "requests": "Solicitudes",
+        "settings": "Configuración"
+      },
+      "maintenance": "Mantenimiento",
+      "ownerRequests": "Solicitudes (Dueño)",
+      "myRequests": "Mis Solicitudes",
+      "adminPanel": "Panel de Administración",
+      "settings": "Ajustes"
+    },
+    "alerts": {
+      "logoutSuccess": {
+        "title": "¡Hasta pronto!",
+        "message": "Sesión cerrada exitosamente"
+      },
+      "logoutError": {
+        "title": "Error",
+        "message": "No se pudo cerrar la sesión correctamente"
+      },
+      "maintenanceSuccess": {
+        "title": "¡Solicitud enviada!",
+        "message": "Tu solicitud de mantenimiento ha sido registrada"
+      }
+    }
+  },
+  "property": {
+    "loadingDetails": "Cargando detalles de la propiedad...",
+    "notFound": "Propiedad no encontrada",
+    "backHome": "Volver al inicio",
+    "properties": "Propiedades",
+    "status": {
+      "available": "Disponible",
+      "rented": "Rentada",
+      "reserved": "Reservada",
+      "sold": "Vendida",
+      "maintenance": "Mantenimiento"
+    },
+    "imageAlt": "Vista {index}",
+    "type": {
+      "casa": "Casa",
+      "apartamento": "Apartamento",
+      "local": "Local Comercial",
+      "finca": "Finca",
+      "propiedad": "Propiedad"
+    },
+    "featured": "Destacada",
+    "new": "Nueva",
+    "petFriendly": "Mascotas",
+    "monthlyPrice": "Precio mensual",
+    "deposit": "Depósito",
+    "mainFeatures": "Características Principales",
+    "areaM2": "m² de área",
+    "bedrooms": "Habitaciones",
+    "bathrooms": "Baños",
+    "parkingSpaces": "Parqueaderos",
+    "floor": "Piso {number}",
+    "floorLabel": "Ubicación",
+    "yearBuilt": "Año",
+    "description": "Descripción",
+    "noDescription": "Sin descripción disponible",
+    "includedServices": "Servicios Incluidos",
+    "mapLocation": "Ubicación en el Mapa",
+    "contact": {
+      "header": "¿Te interesa?",
+      "subHeader": "Solicita más información",
+      "ownerProperty": "Esta es tu propiedad",
+      "editProperty": "Editar Propiedad",
+      "deleteProperty": "Eliminar Propiedad",
+      "requestVisit": "Solicitar Visita",
+      "login": "Iniciar Sesión",
+      "loginRequired": "Debes iniciar sesión para solicitar una visita. ¿Deseas ir a iniciar sesión?",
+      "notAvailable": "No Disponible",
+      "notAvailableDesc": "Esta propiedad no está disponible",
+      "contactAgent": "Contactar Agente",
+      "agentContact": "Función de contacto - Implementar con WhatsApp, Email, etc.",
+      "save": "Guardar",
+      "saved": "Guardado",
+      "share": "Compartir",
+      "shareText": "Mira esta propiedad: {title}",
+      "linkCopied": "¡Enlace copiado al portapapeles!",
+      "deleteConfirm": "¿Estás seguro que deseas eliminar esta propiedad? Esta acción no se puede deshacer.",
+      "deleteFinalConfirm": "Esta es tu última oportunidad. ¿Realmente deseas eliminar esta propiedad permanentemente?",
+      "deleteSuccess": "¡Propiedad eliminada exitosamente!",
+      "deleteError": "Error al eliminar la propiedad.",
+      "deleteNoPermission": "No tienes permisos para eliminar esta propiedad.",
+      "deleteNotFound": "La propiedad no fue encontrada."
+    },
+    "meta": {
+      "published": "Publicado",
+      "views": "visitas",
+      "id": "ID"
+    },
+    "askPrice": "Consultar precio",
+    "create": {
+      "title": "Crear Nueva Propiedad",
+      "subtitle": "Agrega una nueva propiedad a tu catálogo de arrendamientos",
+      "success": "¡Propiedad creada exitosamente!",
+      "successTitle": "Éxito",
+      "successMessage": "La propiedad ha sido publicada correctamente",
+      "errorTitle": "Error",
+      "errorMessage": "Hubo un error al crear la propiedad. Por favor, intenta nuevamente",
+      "confirmCancel": "¿Estás seguro de que deseas cancelar? Se perderán todos los datos ingresados.",
+      "cancelTitle": "Cancelar creación",
+      "publishing": "Publicando...",
+      "publish": "Publicar Propiedad",
+      "basicInfo": "Información Básica",
+      "location": "Ubicación",
+      "locationHint": "Las coordenadas ayudan a mostrar la propiedad en el mapa",
+      "features": "Características",
+      "services": "Servicios Incluidos",
+      "servicesHint": "Separa cada servicio con comas (ej: WiFi, Gas, Agua, Luz)",
+      "noServices": "No se han agregado servicios aún",
+      "image": "Imagen",
+      "imagePreview": "Vista previa de la imagen"
+    },
+    "fields": {
+      "title": "Título",
+      "description": "Descripción",
+      "address": "Dirección",
+      "city": "Ciudad",
+      "status": "Estado",
+      "publicationDate": "Fecha de Publicación",
+      "monthlyPrice": "Precio Mensual",
+      "area": "Área",
+      "bedrooms": "Habitaciones",
+      "bathrooms": "Baños",
+      "services": "Servicios",
+      "imageUrl": "URL de la Imagen",
+      "latitude": "Latitud",
+      "longitude": "Longitud"
+    },
+    "placeholders": {
+      "title": "Ej: Apartamento moderno en el centro",
+      "description": "Describe las características principales de la propiedad...",
+      "address": "Ej: Calle 10 #15-20",
+      "city": "Ej: Popayán",
+      "price": "0.00",
+      "area": "Ej: 85.5",
+      "bedrooms": "0",
+      "bathrooms": "0",
+      "services": "WiFi, Gas, Agua, Luz, Parqueadero",
+      "imageUrl": "https://ejemplo.com/imagen.jpg"
+    }
+  },
+  "time": {
+    "today": "hoy",
+    "yesterday": "ayer",
+    "daysAgo": "{0} días atrás",
+    "weeksAgo": "{0} semanas atrás",
+    "monthsAgo": "{0} meses atrás",
+    "yearsAgo": "{0} años atrás"
+  },
+  "footer": {
+    "about": {
+      "title": "Sobre Nosotros",
+      "description": "Somos una plataforma dedicada a ayudarle a encontrar la casa ideal según tu estilo de vida."
+    },
+    "quickLinks": {
+      "title": "Enlaces Rápidos",
+      "whoWeAre": "Quiénes Somos",
+      "properties": "Propiedades",
+      "contact": "Contacto",
+      "faq": "Preguntas Frecuentes"
+    },
+    "contact": {
+      "title": "Contacto",
+      "phone": "+57 3218598902",
+      "address": "Calle RentUs 123, Popayán"
+    },
+    "social": {
+      "title": "Síguenos"
+    },
+    "bottom": {
+      "rights": "© 2025 RentUs. Todos los derechos reservados",
+      "legal": "Aviso Legal",
+      "privacy": "Política de Privacidad"
+    }
+  },
+  "properties": {
+    "hero": {
+      "title": {
+        "line1": "Descubre Tu",
+        "line2": "Próximo Hogar"
+      },
+      "description": "Explora nuestra colección exclusiva de propiedades diseñadas para tu estilo de vida",
+      "stats": {
+        "properties": "Propiedades",
+        "available": "Disponibles",
+        "cities": "Ciudades"
+      },
+      "scroll": "Explorar"
+    },
+    "section": {
+      "title": "Propiedades Disponibles",
+      "results": {
+        "single": "propiedad encontrada",
+        "multiple": "propiedades encontradas"
+      },
+      "addProperty": "Publicar Propiedad"
+    },
+    "card": {
+      "status": {
+        "available": "Disponible",
+        "rented": "Rentada",
+        "reserved": "Reservada",
+        "sold": "Vendida",
+        "maintenance": "Mantenimiento"
+      },
+      "priceLabel": "Precio Mensual",
+      "perMonth": "/mes",
+      "features": {
+        "area": "Área",
+        "bedrooms": "Habitaciones",
+        "bathrooms": "Baños"
+      },
+      "viewDetails": "Ver Detalles",
+      "edit": "Editar",
+      "delete": "Eliminar"
+    },
+    "empty": {
+      "title": "No se encontraron propiedades",
+      "message": "Intenta ajustar los filtros de búsqueda para encontrar más resultados",
+      "resetButton": "Reiniciar Búsqueda"
+    },
+    "delete": {
+      "confirm": "¿Eliminar esta propiedad permanentemente?",
+      "success": "Propiedad eliminada correctamente",
+      "error": "Error al eliminar la propiedad"
+    },
+    "errors": {
+      "loadUser": "Error cargando usuario",
+      "loadProperties": "Error cargando propiedades"
+    }
+  },
+  "carousel": {
+    "featured": "Propiedad Destacada",
+    "viewDetails": "Ver Detalles",
+    "askPrice": "Consultar precio",
+    "squareMeters": "m²",
+    "bedrooms": "Hab.|Hab.",
+    "bathrooms": "Baño|Baños",
+    "parking": "Parqueo|Parqueos"
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "subtitle": "Más de 10 años conectando personas con sus hogares ideales",
+    "stats": {
+      "years": "Años de Experiencia",
+      "properties": "Propiedades Gestionadas",
+      "clients": "Clientes Satisfechos",
+      "satisfaction": "Satisfacción"
+    },
+    "history": {
+      "title": "Nuestra Historia",
+      "timeline": [
+        {
+          "year": "2014",
+          "title": "Los Inicios",
+          "description": "Rentus nace con la visión de revolucionar el mercado inmobiliario, ofreciendo transparencia y confianza en cada transacción."
+        },
+        {
+          "year": "2016",
+          "title": "Expansión Digital",
+          "description": "Lanzamos nuestra plataforma online, permitiendo búsquedas inteligentes y visitas virtuales en 360°."
+        },
+        {
+          "year": "2018",
+          "title": "Reconocimiento Nacional",
+          "description": "Premiados como la mejor plataforma de alquiler del año, alcanzando 100+ propiedades en nuestra red."
+        },
+        {
+          "year": "2020",
+          "title": "Innovación Tecnológica",
+          "description": "Implementamos IA para matching perfecto entre propiedades y arrendatarios, mejorando en un 95% la satisfacción."
+        },
+        {
+          "year": "2023",
+          "title": "Líderes del Mercado",
+          "description": "Alcanzamos 500+ propiedades y 1000+ clientes satisfechos, consolidándonos como líderes en el sector."
+        },
+        {
+          "year": "2025",
+          "title": "Futuro Sostenible",
+          "description": "Compromiso con propiedades eco-friendly y procesos 100% digitales para un futuro más verde."
+        }
+      ]
+    },
+    "team": {
+      "title": "Nuestro Equipo",
+      "text": "Somos un grupo de profesionales apasionados por el sector inmobiliario, comprometidos con brindar la mejor experiencia a nuestros clientes. Cada miembro aporta su expertise única para crear soluciones innovadoras.",
+      "members": [
+        {
+          "name": "Alexander Camilo",
+          "role": "Scrum master",
+          "initials": "AC"
+        },
+        {
+          "name": "Miguel Camilo",
+          "role": "Developer",
+          "initials": "MC"
+        },
+        {
+          "name": "Camila Acosta",
+          "role": "Developer",
+          "initials": "CA"
+        },
+        {
+          "name": "Jefferson Martinez",
+          "role": "Developer",
+          "initials": "JM"
+        }
+      ]
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "list": [
+        {
+          "icon": "🤝",
+          "title": "Confianza",
+          "description": "Transparencia total en cada proceso y transacción"
+        },
+        {
+          "icon": "💡",
+          "title": "Innovación",
+          "description": "Tecnología de punta para mejorar la experiencia"
+        },
+        {
+          "icon": "❤️",
+          "title": "Compromiso",
+          "description": "Dedicación absoluta con nuestros clientes"
+        },
+        {
+          "icon": "🎯",
+          "title": "Excelencia",
+          "description": "Calidad superior en cada servicio que ofrecemos"
+        }
+      ]
+    },
+    "why": {
+      "title": "¿Por Qué Elegir Rentus?",
+      "features": [
+        {
+          "icon": "🔍",
+          "title": "Búsqueda Inteligente",
+          "description": "Nuestro algoritmo de IA encuentra la propiedad perfecta según tus necesidades específicas y preferencias personales.",
+          "highlight": "95% de coincidencia"
+        },
+        {
+          "icon": "🛡️",
+          "title": "Verificación Total",
+          "description": "Todas las propiedades y usuarios son verificados exhaustivamente para garantizar tu seguridad y tranquilidad.",
+          "highlight": "100% seguro"
+        },
+        {
+          "icon": "⚡",
+          "title": "Proceso Rápido",
+          "description": "Desde la búsqueda hasta la firma del contrato en tiempo récord. Sin papeleo innecesario.",
+          "highlight": "72h promedio"
+        },
+        {
+          "icon": "📱",
+          "title": "App Móvil",
+          "description": "Gestiona todo desde tu smartphone: pagos, reportes, comunicación con propietarios y más.",
+          "highlight": "Disponible 24/7"
+        },
+        {
+          "icon": "💰",
+          "title": "Precios Justos",
+          "description": "Tarifas transparentes y competitivas. Sin comisiones ocultas ni sorpresas desagradables.",
+          "highlight": "Mejor valor"
+        },
+        {
+          "icon": "🌟",
+          "title": "Soporte Premium",
+          "description": "Equipo dedicado disponible para ayudarte en cada paso del proceso de arrendamiento.",
+          "highlight": "Respuesta en 2h"
+        }
+      ]
+    },
+    "mission": {
+      "title": "Nuestra Misión",
+      "text": "Facilitar el encuentro perfecto entre propiedades y personas, utilizando tecnología de vanguardia para crear experiencias excepcionales en el mercado inmobiliario.",
+      "points": [
+        "Democratizar el acceso a propiedades de calidad",
+        "Garantizar procesos transparentes y seguros",
+        "Innovar constantemente en tecnología inmobiliaria",
+        "Crear comunidades sostenibles y prósperas"
+      ]
+    },
+    "vision": {
+      "title": "Nuestra Visión",
+      "text": "Ser la plataforma líder en Latinoamérica que transforme completamente la forma en que las personas encuentran, alquilan y gestionan propiedades.",
+      "goals": [
+        "Expandir a 10 países para 2027",
+        "Alcanzar 10,000 propiedades verificadas",
+        "Implementar blockchain para contratos inteligentes",
+        "Lograr carbono neutral en todas nuestras operaciones"
+      ]
+    },
+    "process": {
+      "title": "Nuestro Proceso",
+      "description": "Un camino simple y transparente desde la búsqueda hasta mudarte a tu nuevo hogar",
+      "steps": [
+        {
+          "icon": "🔎",
+          "title": "Búsqueda Personalizada",
+          "description": "Utiliza nuestros filtros avanzados y IA para encontrar propiedades que se ajusten perfectamente a tus necesidades y presupuesto."
+        },
+        {
+          "icon": "👁️",
+          "title": "Visitas Virtuales o Presenciales",
+          "description": "Agenda tours virtuales en 360° o visitas presenciales según tu preferencia. Flexibilidad total."
+        },
+        {
+          "icon": "✅",
+          "title": "Verificación y Aprobación",
+          "description": "Proceso de verificación rápido y seguro. Aprobación en menos de 48 horas."
+        },
+        {
+          "icon": "📝",
+          "title": "Firma Digital del Contrato",
+          "description": "Contrato digital legalmente vinculante. Firma desde cualquier lugar en minutos."
+        },
+        {
+          "icon": "🏠",
+          "title": "Mudanza y Soporte Continuo",
+          "description": "Asistencia en tu mudanza y soporte 24/7 durante todo tu período de arrendamiento."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo Que Dicen Nuestros Clientes",
+      "description": "Historias reales de personas que encontraron su hogar ideal con Rentus",
+      "items": [
+        {
+          "text": "Encontré mi departamento perfecto en menos de una semana. El proceso fue increíblemente rápido y transparente. La app móvil es excelente.",
+          "author": "María González",
+          "role": "Diseñadora Gráfica",
+          "avatar": "MG",
+          "date": "Hace 2 meses"
+        },
+        {
+          "text": "Como propietario, Rentus me ha facilitado todo. Los inquilinos son verificados y el pago es puntual. La mejor decisión que tomé.",
+          "author": "Roberto Sánchez",
+          "role": "Propietario",
+          "avatar": "RS",
+          "date": "Hace 3 meses"
+        },
+        {
+          "text": "La atención al cliente es sobresaliente. Respondieron todas mis dudas en tiempo récord. Me sentí acompañada en todo momento.",
+          "author": "Laura Martínez",
+          "role": "Estudiante",
+          "avatar": "LM",
+          "date": "Hace 1 mes"
+        },
+        {
+          "text": "Las visitas virtuales en 360° son impresionantes. Pude ver múltiples propiedades sin salir de casa. Ahorré tiempo y dinero.",
+          "author": "Diego Fernández",
+          "role": "Ingeniero de Software",
+          "avatar": "DF",
+          "date": "Hace 4 meses"
+        },
+        {
+          "text": "Proceso 100% digital y súper seguro. El contrato se firmó en minutos y todo quedó perfectamente documentado. Muy profesionales.",
+          "author": "Patricia Ruiz",
+          "role": "Contadora",
+          "avatar": "PR",
+          "date": "Hace 2 semanas"
+        },
+        {
+          "text": "Excelente relación calidad-precio. Las tarifas son justas y no hay comisiones ocultas. Todo fue exactamente como me lo explicaron.",
+          "author": "Andrés López",
+          "role": "Gerente de Ventas",
+          "avatar": "AL",
+          "date": "Hace 5 meses"
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para Encontrar tu Hogar Ideal?",
+      "description": "Únete a miles de personas que ya confían en Rentus para sus necesidades inmobiliarias",
+      "button1": "Explorar Propiedades",
+      "button2": "Contactar Soporte"
+    }
+  },
+  "profile": {
+    "addLocation": "Agregar ubicación",
+    "bio": "Biografía",
+    "addBio": "Agregar biografía",
+    "bioPlaceholder": "Cuéntanos sobre ti...",
+    "stats": {
+      "properties": "Propiedades",
+      "rating": "Rating",
+      "reviews": "Reseñas"
+    },
+    "contact": {
+      "email": "Email",
+      "phone": "Teléfono",
+      "memberSince": "Miembro desde",
+      "notRegistered": "No registrado"
+    },
+    "properties": {
+      "title": "Mis Propiedades",
+      "new": "Nueva",
+      "empty": {
+        "title": "No tienes propiedades",
+        "description": "Comienza agregando tu primera propiedad",
+        "add": "Agregar Propiedad"
+      }
+    },
+    "locationModal": {
+      "title": "Ubicación",
+      "department": "Departamento",
+      "city": "Ciudad"
+    }
+  },
+  "contracts": {
+    "title": "Mis Contratos",
+    "loading": "Cargando contratos...",
+    "searchButton": "Buscar contrato",
+    "searchPlaceholder": "Buscar por ID o dirección...",
+    "noResults": "No se encontraron contratos",
+    "new": "Nuevo",
+    "actionRequired": "Acción requerida",
+    "status": "Estado",
+    "review": "Revisar",
+    "preview": "Vista previa",
+    "page": "Página",
+    "active": "Activos",
+    "total": "Total",
+    "pending": "Pendientes",
+    "empty": "No tienes contratos aún",
+    "previewLoading": "Generando vista previa del contrato...",
+    "previewUnavailable": "Vista previa no disponible",
+    "downloadPdf": "Descargar PDF",
+    "share": "Compartir",
+    "details": "Detalles del Contrato",
+    "property": "Propiedad",
+    "tenant": "Inquilino",
+    "landlord": "Arrendador",
+    "monthlyValue": "Valor Mensual",
+    "deposit": "Depósito",
+    "duration": "Duración",
+    "startDate": "Fecha Inicio",
+    "endDate": "Fecha Fin",
+    "reviewContract": "Revisar Contrato",
+    "loadingContract": "Cargando contrato...",
+    "summary": "Resumen del Contrato",
+    "importantClauses": "Cláusulas importantes:",
+    "acceptTerms": "He leído y acepto los términos del contrato",
+    "accept": "Aceptar Contrato",
+    "accepting": "Aceptando...",
+    "reject": "Rechazar Contrato",
+    "statusActive": "Activo",
+    "statusInactive": "Inactivo",
+    "statusExpired": "Expirado",
+    "statusPending": "Pendiente",
+    "statusRejected": "Rechazado",
+    "statusUnknown": "Desconocido"
+  },
+  "notifications": {
+    "title": "Notificaciones",
+    "markAll": "Marcar todas",
+    "loading": "Cargando notificaciones...",
+    "empty": {
+      "title": "Sin notificaciones",
+      "description": "Cuando recibas notificaciones aparecerán aquí"
+    },
+    "dates": {
+      "today": "Hoy",
+      "yesterday": "Ayer"
+    },
+    "newsEmails": "Correos de novedades",
+    "newsEmailsDesc": "Recibe actualizaciones sobre nuevas funcionalidades",
+    "propertyAlerts": "Alertas de propiedades",
+    "propertyAlertsDesc": "Notificaciones sobre propiedades que coinciden con tus criterios",
+    "reminders": "Recordatorios",
+    "remindersDesc": "Recordatorios sobre tus citas y actividades programadas",
+    "specialPromotions": "Promociones especiales",
+    "specialPromotionsDesc": "Ofertas y descuentos exclusivos"
+  },
+  "requests": {
+    "title": "Solicitudes de Arriendo",
+    "subtitle": "Revisa y gestiona solicitudes pendientes",
+    "loading": "Cargando solicitudes...",
+    "property": {
+      "requestedDate": "Fecha solicitada",
+      "proposedDate": "Fecha propuesta (esperando respuesta)"
+    },
+    "rating": {
+      "none": "Sin calificación",
+      "na": "N/A"
+    },
+    "actions": {
+      "review": "Revisar",
+      "reject": "Rechazar",
+      "continue": "Seguir proceso",
+      "finish": "Finalizar proceso",
+      "accept": "Aceptar solicitud",
+      "cancelProposal": "Cancelar propuesta",
+      "proposeDate": "Proponer otra fecha",
+      "sendProposal": "Enviar propuesta",
+      "cancel": "Cancelar",
+      "sendContract": "Enviar contrato"
+    },
+    "status": {
+      "pending": "Pendiente",
+      "accepted": "Aceptada",
+      "rejected": "Rechazada",
+      "counterProposed": "Contra-propuesta enviada",
+      "visitCompleted": "Visita completada",
+      "contractSent": "Contrato enviado"
+    },
+    "messages": {
+      "visitScheduled": "Visita programada para {date} {time}",
+      "waitingTenant": "Esperando respuesta del inquilino...",
+      "requestRejected": "Solicitud rechazada",
+      "contractWaiting": "Contrato enviado - Esperando aceptación",
+      "visitCompleted": "Visita completada"
+    },
+    "empty": {
+      "title": "No hay solicitudes",
+      "description": "Las solicitudes de arriendo aparecerán aquí"
+    },
+    "reviewModal": {
+      "title": "Revisar Solicitud",
+      "requestedDate": "Fecha solicitada"
+    },
+    "counterForm": {
+      "title": "Proponer nueva fecha y hora",
+      "newDate": "Nueva fecha",
+      "newTime": "Nueva hora"
+    },
+    "contractModal": {
+      "title": "Enviar Términos del Contrato",
+      "period": "Período del contrato",
+      "startDate": "Fecha de inicio",
+      "endDate": "Fecha de finalización",
+      "financial": "Información financiera",
+      "monthlyPrice": "Precio mensual ($)",
+      "deposit": "Depósito/Garantía ($)",
+      "paymentDay": "Día de pago (1-31)",
+      "lateFee": "Multa por retraso ($)",
+      "terms": "Servicios y términos",
+      "utilities": "Servicios incluidos",
+      "utilitiesHint": "Separados por coma",
+      "clauses": "Cláusulas del contrato",
+      "clausesHint": "Una por línea",
+      "specialConditions": "Condiciones especiales (opcional)",
+      "specialConditionsPlaceholder": "Condiciones adicionales..."
+    }
+  },
+  "myVisits": {
+    "title": "Mis Solicitudes de Visita",
+    "subtitle": "Seguimiento de tus citas programadas",
+    "loading": "Cargando solicitudes...",
+    "requestedDate": "Fecha solicitada",
+    "counterProposedByOwner": "Nueva fecha propuesta por el dueño",
+    "actions": {
+      "acceptNewDate": "Aceptar nueva fecha",
+      "viewContract": "Ver contrato",
+      "cancelRequest": "Cancelar solicitud",
+      "searchProperties": "Buscar propiedades"
+    },
+    "messages": {
+      "visitConfirmed": "Visita confirmada. El dueño te contactará pronto.",
+      "requestRejected": "Solicitud rechazada por el dueño",
+      "waitingOwner": "Esperando respuesta del dueño..."
+    },
+    "empty": {
+      "title": "No tienes solicitudes",
+      "description": "Aún no has solicitado visitas a propiedades"
+    }
+  },
+  "visitRequest": {
+    "title": "Solicitar Cita de Visita",
+    "form": {
+      "date": "Fecha de la visita",
+      "time": "Hora de la visita"
+    },
+    "info": "El dueño recibirá tu solicitud y podrá aceptarla o proponer otra fecha/hora.",
+    "actions": {
+      "send": "Enviar Solicitud",
+      "sending": "Enviando..."
+    },
+    "success": "¡Solicitud enviada exitosamente!",
+    "errors": {
+      "generic": "Ocurrió un error inesperado",
+      "sendRequest": "Error al enviar la solicitud"
+    }
+  },
+  "alerts": {
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "close": "Cerrar alerta"
+  },
+  "languages": {
+    "es": "🇪🇸 Español",
+    "en": "🇺🇸 English",
+    "fr": "🇫🇷 Français",
+    "de": "🇩🇪 Deutsch"
+  },
+  "timezones": {
+    "bogota": "Colombia (GMT-5)",
+    "madrid": "España (GMT+1)",
+    "london": "Reino Unido (GMT+0)",
+    "newYork": "EE.UU. Este (GMT-5)",
+    "losAngeles": "EE.UU. Oeste (GMT-8)"
+  },
+  "settings": {
+    "language": "Idioma",
+    "timezone": "Zona horaria",
+    "units": "Unidades",
+    "unitsMetric": "Métrico (km, m²)",
+    "unitsImperial": "Imperial (mi, ft²)",
+    "sections": {
+      "profile": "Perfil",
+      "security": "Seguridad",
+      "notifications": "Notificaciones",
+      "preferences": "Preferencias"
+    },
+    "profile": {
+      "title": "Perfil",
+      "avatar": "Avatar del usuario",
+      "changeAvatar": "Cambiar foto",
+      "avatarHint": "Formatos permitidos: JPG, PNG, GIF o WEBP. Máx 5MB.",
+      "fullName": "Nombre completo",
+      "namePlaceholder": "Ingresa tu nombre",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "Correo electrónico",
+      "emailNote": "El correo no se puede modificar",
+      "phone": "Teléfono",
+      "phonePlaceholder": "Ingresa tu teléfono",
+      "document": "Documento",
+      "documentPlaceholder": "Número de documento",
+      "bio": "Biografía",
+      "bioPlaceholder": "Cuéntanos un poco sobre ti",
+      "department": "Departamento",
+      "selectDepartment": "Selecciona un departamento",
+      "city": "Ciudad",
+      "selectCity": "Selecciona una ciudad"
+    },
+    "security": {
+      "title": "Seguridad",
+      "currentPassword": "Contraseña actual",
+      "currentPlaceholder": "Ingresa tu contraseña actual",
+      "newPassword": "Nueva contraseña",
+      "newPlaceholder": "Ingresa la nueva contraseña",
+      "confirmPassword": "Confirmar contraseña",
+      "confirmPlaceholder": "Confirma la contraseña",
+      "updatePassword": "Actualizar contraseña",
+      "requirementsTitle": "La contraseña debe contener:",
+      "minLength": "Al menos 8 caracteres",
+      "upperLower": "Mayúsculas y minúsculas",
+      "number": "Al menos un número",
+      "specialChar": "Un carácter especial",
+      "match": "Las contraseñas deben coincidir"
+    },
+    "notifications": {
+      "title": "Notificaciones"
+    },
+    "preferences": {
+      "title": "Preferencias",
+      "theme": "Tema",
+      "save": "Guardar preferencias"
+    },
+    "themes": {
+      "light": "Claro",
+      "dark": "Oscuro",
+      "auto": "Automático"
+    }
+  },
+  "passwordStrength": {
+    "veryWeak": "Muy débil",
+    "weak": "Débil",
+    "medium": "Media",
+    "strong": "Fuerte"
+  },
+  "common": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "select": "Selecciona",
+    "month": "mes",
+    "close": "Cerrar",
+    "reject": "Rechazar",
+    "saveChanges": "Guardar cambios",
+    "saving": "Guardando...",
+    "updating": "Actualizando...",
+    "reset": "Restablecer",
+    "savePreferences": "Guardar preferencias",
+    "logout": "Cerrar sesión",
+    "yes": "Sí",
+    "no": "No"
+  }
+}

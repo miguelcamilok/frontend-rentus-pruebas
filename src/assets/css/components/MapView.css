@@ -1,0 +1,193 @@
+.map-container {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+}
+
+.loading-spinner {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 15px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* SOLUCIÓN: Estilos para evitar que los controles de Leaflet se superpongan al navbar */
+/* Estos estilos deben estar en el componente o globalmente */
+
+/* Reduce el z-index de los controles de Leaflet */
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 999 !important; /* Reducido desde 1000+ */
+}
+
+/* Controles específicos */
+.leaflet-control-zoom,
+.leaflet-control-attribution {
+  z-index: 999 !important;
+}
+
+/* Botón de localización personalizado */
+.locate-btn {
+  z-index: 999 !important;
+}
+
+/* Asegúrate que el navbar tenga un z-index mayor */
+/* Agrega esto en tu archivo CSS global o en el layout principal */
+/*
+.navbar, header, [tu-clase-navbar] {
+  z-index: 1000 !important;
+  position: relative !important;
+}
+*/
+
+/* Estilos globales para los popups y controles de Leaflet */
+:deep(.locate-btn) {
+  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(52, 152, 219, 0.4);
+  transition: all 0.3s ease;
+  z-index: 999 !important; /* Asegurar z-index específico */
+}
+
+:deep(.locate-btn):hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(52, 152, 219, 0.6);
+}
+
+:deep(.locate-btn):disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+:deep(.leaflet-control-zoom) {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 999 !important; /* Asegurar z-index específico */
+}
+
+:deep(.leaflet-control-zoom a) {
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+:deep(.leaflet-popup-content-wrapper) {
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+:deep(.leaflet-popup-content) {
+  margin: 15px;
+}
+
+:deep(.leaflet-popup-tip) {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+:deep(.leaflet-marker-icon) {
+  pointer-events: auto !important;
+  touch-action: auto !important;
+}
+
+:deep(.leaflet-marker-icon img) {
+  pointer-events: auto !important;
+}
+
+.popup-btn {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 13px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: all 0.2s ease;
+}
+
+.popup-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.popup-btn:active {
+  transform: translateY(0);
+}
+
+.save-btn {
+  background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+  color: white;
+}
+
+.retry-btn {
+  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+  color: white;
+}
+
+.popup-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.leaflet-popup-content {
+  margin: 13px 19px;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+}
