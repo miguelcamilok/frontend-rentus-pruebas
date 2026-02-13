@@ -3,7 +3,7 @@ import axios, { AxiosError, type InternalAxiosRequestConfig } from "axios";
 
 // ==================== CONFIGURACIÓN BASE ====================
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://api.rentus/api",
+  baseURL: import.meta.env.VITE_API_URL || "https://bestinc-production.up.railway.app/api",
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",
